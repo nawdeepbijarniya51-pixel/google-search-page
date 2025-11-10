@@ -114,3 +114,7 @@
         .icon h1{
             color: white;
         }
+        input:focus {
+    outline: none;
+    border: none;
+}
