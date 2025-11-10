@@ -1,120 +1,134 @@
-*{
-            padding: 0px;
-            margin:0px;
-        }
-        body{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            
-        }
-       svg {
-          position: relative;
-         top: 25vh;
-         left: 75px;
-         height: 120px;
-        }
-        .input-div{
-            height: 48px;
-            width: 437px;
-            position: relative;
-            z-index: 1;
-            left: 20%;
-            top: 180px;
-           border: 1px solid;
-            border-radius: 100px;
-            display: flex;
-            align-items: center;
-            justify-content:center;
-            gap: 10px;
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
-        }
-        @media (max-width:400px){
-            input{
-                width: 500px;
-            }
-        }
-        input{
-            height: 95%;
-            width: 86%;
-            background-color: transparent;
-            border: 0px;
-            font-size: 20px;
-            text-overflow: ellipsis;
-        }
-        .mic{
-            background-image: url("mic.svg");
-            background-size: contain;
-            height: 28px;
-            width: 30px;
-            position: relative;
-            right: 6px;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
-        }
-        .search{
-            background-image: url("search.svg");
-            background-size: contain;
-            height: 29px;
-            width: 30px;
-            color:rgba(0, 0, 0, 0);
-            position: relative;
-            top: 2px;
-            left: 2px;
-           
-            opacity: 0.4;
-        }
-        .ilance{
-            background-image: url("ilance.svg");
-            height: 29px;
-            width: 30px;
-            background-size: contain;
-            position: relative;
-            right: 10px;
-        }
-        .iconbox{
-            background-color: rgba(255, 255, 255, 0);
-            height:100px;
-            position: relative;
-            top: 200px;
-            width: 70px;
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            align-items: center;
-            justify-content: center;
-            border-radius: 10px;
-            left:72px;
-            gap: 2px;
-            overflow: hidden;
-            border: none;
-        }
-        .iconbox:hover{
-            background-color: rgba(0, 0, 0, 0.144);
-        }
-        .icon{
-            height: 50px;
-            width: 50px;
-            background-color:#13487D;
-            border-radius:50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+}
 
-        }
-        .toolbox{
-            display: flex;
-            width: 100%;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 10pxS;
-        }
-        .icon h1{
-            color: white;
-        }
-        input:focus {
+svg {
+    position: relative;
+    top: 25vh;
+    left: 75px;
+    height: 120px;
+}
+
+.input-div {
+    height: 48px;
+    width: 437px;
+    position: relative;
+    z-index: 1;
+    left: 20%;
+    top: 180px;
+    border: 1px solid;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+@media (max-width:400px) {
+    input {
+        width: 500px;
+    }
+}
+
+input {
+    height: 95%;
+    width: 86%;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    text-overflow: ellipsis;
+}
+
+.mic {
+    background-image: url("mic.svg");
+    background-size: contain;
+    height: 28px;
+    width: 30px;
+    position: relative;
+    right: 6px;
+
+}
+
+.search {
+    background-image: url("search.svg");
+    background-size: contain;
+    height: 29px;
+    width: 30px;
+    color: rgba(0, 0, 0, 0);
+    position: relative;
+    top: 2px;
+    left: 2px;
+
+    opacity: 0.4;
+}
+
+.ilance {
+    background-image: url("ilance.svg");
+    height: 29px;
+    width: 30px;
+    background-size: contain;
+    position: relative;
+    right: 10px;
+}
+
+.iconbox {
+    background-color: rgba(255, 255, 255, 0);
+    height: 100px;
+    position: relative;
+    top: 200px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    left: 72px;
+    gap: 2px;
+    overflow: hidden;
+    border: none;
+}
+
+.iconbox:hover {
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: #13487D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.toolbox {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10pxS;
+}
+
+.icon h1 {
+    color: white;
+}
+
+input:focus {
     outline: none;
     border: none;
 }
